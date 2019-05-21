@@ -26,7 +26,8 @@ public struct MockFoo: Foo {
     public func function() {
         print("MockFoo.function()")
     }
-}```
+}
+```
 
 There should be only one instance of a `Foo` in the lifetime of my app, but instead of creating a *global* variable for it, I have a `FooManager` with a static property for the `Foo` instance:
 
@@ -67,3 +68,9 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 ```
 
 Googling `"protocol witness table for"` doesn't yield much beyond updating the framework search paths. Why would this work in _unit_ tests, but not _UI_ tests?
+
+I've tried a number of different things:
+* Changing `RealFoo` and `MockFoo` to classes makes no difference.
+* Changing `FooManager` to a class adds an additional `Undefined symbol: type metadata accessor for StructUp.FooManager`.
+* Taking `foo` out of the `FooManager` and making it a global variable makes no difference.
+
