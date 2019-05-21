@@ -14,7 +14,7 @@
 		AD16BE102293556600E3F46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD16BE0E2293556600E3F46F /* LaunchScreen.storyboard */; };
 		AD16BE1B2293556600E3F46F /* StructUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD16BE1A2293556600E3F46F /* StructUpTests.swift */; };
 		AD16BE262293556600E3F46F /* StructUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD16BE252293556600E3F46F /* StructUpUITests.swift */; };
-		AD16BE342293557B00E3F46F /* StructManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD16BE332293557B00E3F46F /* StructManager.swift */; };
+		AD16BE382294692A00E3F46F /* FooManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD16BE372294692A00E3F46F /* FooManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		AD16BE212293556600E3F46F /* StructUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StructUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD16BE252293556600E3F46F /* StructUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructUpUITests.swift; sourceTree = "<group>"; };
 		AD16BE272293556600E3F46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AD16BE332293557B00E3F46F /* StructManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructManager.swift; sourceTree = "<group>"; };
+		AD16BE372294692A00E3F46F /* FooManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		AD16BE042293556500E3F46F /* StructUp */ = {
 			isa = PBXGroup;
 			children = (
-				AD16BE332293557B00E3F46F /* StructManager.swift */,
+				AD16BE372294692A00E3F46F /* FooManager.swift */,
 				AD16BE052293556500E3F46F /* AppDelegate.swift */,
 				AD16BE072293556500E3F46F /* ViewController.swift */,
 				AD16BE092293556500E3F46F /* Main.storyboard */,
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD16BE342293557B00E3F46F /* StructManager.swift in Sources */,
 				AD16BE082293556500E3F46F /* ViewController.swift in Sources */,
 				AD16BE062293556500E3F46F /* AppDelegate.swift in Sources */,
+				AD16BE382294692A00E3F46F /* FooManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

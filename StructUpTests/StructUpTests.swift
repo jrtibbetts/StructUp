@@ -14,7 +14,7 @@ class StructUpTests: XCTestCase {
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         
-        StructManager.destruction = Destruction2()
+        FooManager.foo = MockFoo()
     }
 
     override func tearDown() {
