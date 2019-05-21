@@ -1,5 +1,5 @@
 # StructUp
-Demonstrates a Swift compiler error (bug?) where static properties from one module can't be changed in a UI testing module
+Demonstrates a Swift compiler error (bug?) where static properties from one module can't be changed in a UI testing module.
 
 I have a protocol in my main target that I'm calling `Foo`:
 
