@@ -6,6 +6,7 @@
 //  Copyright © 2019 Poikile Creations. All rights reserved.
 //
 
+@testable import StructUp
 import XCTest
 
 class StructUpUITests: XCTestCase {
@@ -20,6 +21,8 @@ class StructUpUITests: XCTestCase {
         XCUIApplication().launch()
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        
+        StructManager.destruction = Destruction2()
     }
 
     override func tearDown() {
